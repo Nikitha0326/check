@@ -52,10 +52,9 @@
              <configuration>
              <url>http://54.234.25.32:8080/manager/text</url>
               <server>TomcatServer</server>
-              <path>/helloworld-webapp</path>
+              <path>/hi-webapp</path>
             </configuration>
        </plugin>
-
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
