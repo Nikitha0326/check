@@ -68,5 +68,12 @@
        </plugin>
       </plugins>
     </pluginManagement>
+    <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>http://54.234.25.32:8080/manager/text</url>
+       </repository>
+   </distributionManagement>
   </build>
 </project>
